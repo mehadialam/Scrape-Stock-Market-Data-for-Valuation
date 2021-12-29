@@ -835,7 +835,7 @@ libc.malloc_trim(0)
 wb, wbv = googsheet()
 while True:
     try:
-        wbv.worksheet('All Tickers').update('I1', [['Update Completed']], value_input_option='USER_ENTERED')
+        wbv.worksheet('All Tickers').update('H1', [['Update Completed']], value_input_option='USER_ENTERED')
         break
     except Exception as e:
         print(e)
